@@ -5,8 +5,8 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Cookies from 'js-cookie';
 
-const ADMIN_USERNAME = 'admin';
-const ADMIN_PASSWORD = 'password';
+const ADMIN_USERNAME = 'sakeena';
+const ADMIN_PASSWORD = 'sidheek1985';
 
 export default function AdminLogin() {
   const [username, setUsername] = useState('');
